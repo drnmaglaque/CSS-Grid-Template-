@@ -1,0 +1,162 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container { /*reason why our grid is contained in 960px width and centered*/
+	max-width: 960px; 
+	/*to prevent our layout from extending extensively in very wide displays*/
+	margin: 0 auto;
+}
+
+.grid {
+	position: relative;
+	top: 0px;
+}
+
+.grid >.clm {
+	height: 1060px;
+	width: 7.33%; 
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	background-color: #A09E9E;
+	box-sizing: border-box;
+	opacity: .4;
+	padding-top: 530px; /*to center the element from our height that is 1060*/
+	text-align: center;
+	float: left;
+}
+
+/*Desktop View*/
+.col-lg-1 {
+	width: 8.33%; /*100% / 12 times 1*/
+}
+
+.col-lg-2 {
+	width: 16.66%; /*100% / 12 times 2*/
+}
+
+.col-lg-3 {
+	width: 25%; /*100% / 12 times 3*/
+}
+
+.col-lg-4 {
+	width: 33.33%; /*100% / 12 times 4*/
+}
+
+.col-lg-5 {
+	width: 41.66%; /*100% / 12 times 5*/
+}
+.col-lg-6 {
+	width: 50%; /*100% / 12 times 6*/
+}
+.col-lg-7 {
+	width: 58.33%; /*100% / 12 times 7*/
+} 
+.col-lg-8 { 
+	width: 66.66%; /*100% / 12 times 8*/
+}
+.col-lg-9 {
+	width: 75%; /*100% / 12 times 9*/
+}
+.col-lg-10 {
+	width: 83.33%; /*100% / 12 times 10*/
+}
+.col-lg-11 {
+	width: 91.66%; /*100% / 12 times 11*/
+}
+.col-lg-12 {
+	width: 100%; /*100% / 12 times 12*/
+}
+
+/*Tablet Rules*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+	.col-md-1 {
+		width: 8.33%; /*100% / 12 times 1*/
+	}
+
+	.col-md-2 {
+		width: 16.66%; /*100% / 12 times 2*/
+	}
+
+	.col-md-3 {
+		width: 25%; /*100% / 12 times 3*/
+	}
+
+	.col-md-4 {
+		width: 33.33%; /*100% / 12 times 4*/
+	}
+
+	.col-md-5 {
+		width: 41.66%; /*100% / 12 times 5*/
+	}
+	.col-md-6 {
+		width: 50%; /*100% / 12 times 6*/
+	}
+	.col-md-7 {
+		width: 58.33%; /*100% / 12 times 7*/
+	} 
+	.col-md-8 { 
+		width: 66.66%; /*100% / 12 times 8*/
+	}
+	.col-md-9 {
+		width: 75%; /*100% / 12 times 9*/
+	}
+	.col-md-10 {
+		width: 83.33%; /*100% / 12 times 10*/
+	}
+	.col-md-11 {
+		width: 91.66%; /*100% / 12 times 11*/
+	}
+	.col-md-12 {
+			width: 100%; /*100% / 12 times 12*/
+	}
+}
+
+/*Mobile Rules*/
+@media only screen and (max-width: 400px)
+{
+
+	.col-sm-1 {
+		width: 8.33%; /*100% / 12 times 1*/
+	}
+
+	.col-sm-2 {
+		width: 16.66%; /*100% / 12 times 2*/
+	}
+
+	.col-sm-3 {
+		width: 25%; /*100% / 12 times 3*/
+	}
+
+	.col-sm-4 {
+		width: 33.33%; /*100% / 12 times 4*/
+	}
+
+	.col-sm-5 {
+		width: 41.66%; /*100% / 12 times 5*/
+	}
+	.col-sm-6 {
+		width: 50%; /*100% / 12 times 6*/
+	}
+	.col-sm-7 {
+		width: 58.33%; /*100% / 12 times 7*/
+	} 
+	.col-sm-8 { 
+		width: 66.66%; /*100% / 12 times 8*/
+	}
+	.col-sm-9 {
+		width: 75%; /*100% / 12 times 9*/
+	}
+	.col-sm-10 {
+		width: 83.33%; /*100% / 12 times 10*/
+	}
+	.col-sm-11 {
+		width: 91.66%; /*100% / 12 times 11*/
+	}
+	.col-sm-12 {
+		width: 100%; /*100% / 12 times 12*/
+	}
+}
